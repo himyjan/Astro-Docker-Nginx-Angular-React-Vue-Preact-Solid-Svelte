@@ -3,5 +3,6 @@
   "compilerOptions": {
     // Needed for TypeScript intellisense in the template inside Vue files
     "jsx": "preserve"
-  }
+  },
+  "include": ["src/components/*.tsx"]
 }
