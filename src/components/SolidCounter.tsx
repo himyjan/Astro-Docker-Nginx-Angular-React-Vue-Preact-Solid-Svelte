@@ -1,10 +1,9 @@
 /** @jsxImportSource solid-js */
 
 import { createSignal } from 'solid-js';
-import type { ReactNode } from 'react';
 
 export interface props {
-    children?: ReactNode|string; }
+    children?: any; }
 
 /** A counter written with Solid */
 export default function SolidCounter({ children }: props) {

@@ -1,10 +1,10 @@
 /** @jsxImportSource preact */
 
 import { useState } from 'preact/hooks';
-import type { ReactNode } from 'react';
 
 export interface props {
-    children?: ReactNode|string; }
+  children?: any;
+}
 
 /** A counter written with Preact */
 export function PreactCounter({ children }: props) {

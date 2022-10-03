@@ -1,7 +1,7 @@
-import { useState, ReactNode } from 'react';
+import { useState } from 'react';
 
 export interface props {
-    children?: ReactNode|string; }
+    children?: any; }
 
 /** A counter written with React */
 export function Counter({ children }:props) {
