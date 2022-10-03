@@ -29,6 +29,5 @@
     "strictTemplates": true
   },
   "files": [],
-  "include": ["src/**/*.ts"],
-  "exclude": ["src/**/*.tsx"]
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
 }

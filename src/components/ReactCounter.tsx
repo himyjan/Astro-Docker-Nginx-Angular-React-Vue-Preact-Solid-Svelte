@@ -1,7 +1,10 @@
-import { useState } from 'react';
+import { useState, ReactNode } from 'react';
+
+export interface props {
+    children?: ReactNode|string; }
 
 /** A counter written with React */
-export function Counter({ children }) {
+export function Counter({ children }:props) {
 	const [count, setCount] = useState(0);
 	const add = () => setCount((i) => i + 1);
 	const subtract = () => setCount((i) => i - 1);
