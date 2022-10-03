@@ -1,5 +1,6 @@
 {
-  "name": "astro-react-ssr",
+  "name": "@example/framework-multiple",
+  "type": "module",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,25 +8,20 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "server": "node server/server.mjs"
-  },
-  "devDependencies": {
-    "@astrojs/vercel": "^1.0.2"
+    "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/node": "^1.0.1",
-    "@astrojs/react": "^1.1.1",
-    "@astrojs/vue": "^1.0.0",
-    "@astrojs/tailwind": "^1.0.0",
-    "@types/react": "^18.0.18",
-    "@types/react-dom": "^18.0.6",
-    "astro": "^1.1.5",
+    "astro": "latest",
+    "preact": "^10.11.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "vue": "^3.2.38",
-    "tailwindcss": "^3.1.8"
-  },
-  "keywords": [],
-  "description": ""
+    "solid-js": "^1.5.7",
+    "svelte": "^3.50.1",
+    "vue": "^3.2.40",
+    "@astrojs/preact": "latest",
+    "@astrojs/react": "latest",
+    "@astrojs/solid-js": "latest",
+    "@astrojs/svelte": "latest",
+    "@astrojs/vue": "latest"
+  }
 }
