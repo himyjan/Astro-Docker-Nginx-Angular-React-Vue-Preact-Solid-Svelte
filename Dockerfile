@@ -11,7 +11,7 @@ ADD https://github.com/oven-sh/bun/releases/latest/download/bun-linux-aarch64.zi
 RUN unzip bun-linux-aarch64.zip
 
 ### IMAGE ###
-FROM debian:bookworm-slim as react-build
+FROM debian:bookworm-slim as build
 
 # install bun
 COPY --from=get /tmp/bun-linux-aarch64/bun /usr/local/bin
@@ -31,7 +31,7 @@ RUN bun run build
 # Stage 2 - Deploy with NGNIX
 FROM nginx:latest
 
-COPY --from=react-build /usr/src/app/dist /var/www
+COPY --from=build /usr/src/app/dist /var/www
 COPY nginx.conf /etc/nginx/nginx.conf
 
 EXPOSE 3000
