@@ -11,7 +11,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@analogjs/astro-angular": "^0.1.0-beta.3",
+    "@analogjs/astro-angular": "^0.1.0-beta.4",
     "@astrojs/preact": "^1.2.0",
     "@astrojs/react": "^1.2.2",
     "@astrojs/solid-js": "^1.2.3",
@@ -42,6 +42,6 @@
     "@angular/cli": "^15.0.0",
     "@angular/compiler-cli": "^15.0.0",
     "@angular/language-service": "^15.0.0",
-    "typescript": "^4.9.3"
+    "typescript": "~4.8.4"
   }
 }
