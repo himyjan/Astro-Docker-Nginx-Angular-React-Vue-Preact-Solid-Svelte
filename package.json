@@ -15,7 +15,7 @@
     "@astrojs/preact": "^2.0.0",
     "@astrojs/react": "^1.2.2",
     "@astrojs/solid-js": "^1.2.3",
-    "@astrojs/svelte": "^1.0.2",
+    "@astrojs/svelte": "^2.0.0",
     "@astrojs/vue": "^1.2.1",
     "astro": "^2.0.0",
     "preact": "^10.11.3",
