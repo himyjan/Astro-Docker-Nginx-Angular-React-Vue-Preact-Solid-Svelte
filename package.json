@@ -12,9 +12,14 @@
   },
   "dependencies": {
     "@analogjs/astro-angular": "latest",
+    "@angular/animations": "latest",
+    "@angular/build": "latest",
+    "@angular/common": "latest",
     "@angular/compiler": "latest",
     "@angular/compiler-cli": "latest",
     "@angular/core": "latest",
+    "@angular/platform-browser": "latest",
+    "@angular/platform-server": "latest",
     "@astrojs/preact": "latest",
     "@astrojs/react": "latest",
     "@astrojs/solid-js": "latest",
@@ -27,7 +32,8 @@
     "rxjs": "latest",
     "solid-js": "^1.9.2",
     "svelte": "^4.2.19",
-    "typescript": "^5.6.3",
-    "vue": "^3.5.12"
+    "typescript": "~5.5.4",
+    "vue": "^3.5.12",
+    "zone.js": "latest"
   }
 }
